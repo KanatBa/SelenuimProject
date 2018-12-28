@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="2" name="Test(failed)">
+    <classes>
+      <class name="facebook.facebookTest">
+        <methods>
+          <include name="register"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- facebook.facebookTest -->
+      <class name="ebay.ebayTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- ebay.ebayTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

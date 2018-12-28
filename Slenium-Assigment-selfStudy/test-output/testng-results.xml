@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47580" started-at="2018-12-19T17:48:24Z" finished-at="2018-12-19T17:49:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47580" started-at="2018-12-19T17:48:24Z" finished-at="2018-12-19T17:49:12Z">
+      <class name="qatechhub.qatechhubTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qatechhub.qatechhubTest@5e5792a0]" name="setUp" is-config="true" duration-ms="35689" started-at="2018-12-19T17:48:24Z" finished-at="2018-12-19T17:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:qatechhub.qatechhubTest@5e5792a0]" name="checkTitle" duration-ms="8483" started-at="2018-12-19T17:49:00Z" finished-at="2018-12-19T17:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:qatechhub.qatechhubTest@5e5792a0]" name="closeBrowser" is-config="true" duration-ms="3370" started-at="2018-12-19T17:49:09Z" finished-at="2018-12-19T17:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- qatechhub.qatechhubTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
